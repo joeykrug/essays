@@ -4,4 +4,4 @@ thoughts on mentoring
 
 ## the ask
 
-the ask is often off center
+the ask is very often off center
