@@ -32,7 +32,7 @@ As to what to do about it, two independent remedies come to mind.
 
 The first one is a very simple check: what part of the thing that enthused me today do I understand in sufficient detail that I could apply it to create tangible value in my own environment within the next week, month or year? How could a trusted third party verify that I actually have done so, at the end of the week, month, year?
 
-La Rochefoucald was probably onto something like this when he drily observed that philosophy triumphs easily over past and future evils but can't do much about the present ones.
+[La Rochefoucauld](https://en.wikipedia.org/wiki/Fran%C3%A7ois_de_La_Rochefoucauld_(writer)) was probably onto something like this when he drily observed that philosophy triumphs easily over past and future evils but can't do much about the present ones.
 
 The second is again based on the idea of surrounding oneself with the type of person one wants to become. Stealing a page from successful substance abuse treatment programs (about which, admittedly, I know much less than I should to be writing about them: another Thrasyllism, perhaps) one could set up a system of 'buddies', i.e. people with whom you have made the pact that you will (affectionately but firmly) call each other out if you ever spot one another going (full or fractional) Thrasyllus.
 
