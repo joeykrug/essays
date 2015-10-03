@@ -10,7 +10,7 @@ To exemplify, imagine Alice establishes a market for the prediction:
 
 On April 1, 2015 it becomes the task of referees Barbara, Carol and Diana to decide if the event described in Alice's market did, in fact, take place.
 
-Barbara, Carol and Diana are busy people and so would appreciate help in finding and sorting out reliable information sources that contain evidence about that question (for example, official announcements on the web site of TomTom or Neo Technology).
+Barbara, Carol and Diana are busy people and so would appreciate help in finding and sorting out reliable information sources that contain evidence about that question (for example, official announcements on the web site of Siemens or Neo Technology).
 
 This is particularly important because Barbara, Carol and Diana will have to deal not only with Alice's prediction but with hundreds or thousands of predictions made by many other people on the market.
 
@@ -246,3 +246,5 @@ SELECT ?time
 ```
 
 i.e. when will [Augur](http://www.augur.net) manage to do (at least part of) this?
+
+Nan!717JLB
