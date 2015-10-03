@@ -18,9 +18,9 @@ The Augur post points in an obvious direction: anything that can be automated *s
 
 And we know that the referees' task can be automated because we have, *today*, software agents that are reasonably good at
 
-1. performing queries on search engines (e.g. search for: +"TomTom" +"Neo Technology")
-2. identifying mentions of the relevant entities in the documents returned by those queries (i.e. TomTom and Neo Technology)
-3. determining if the entities mentioned stand in the appropriate relationship to one another (i.e to make sure that the document is about TomTom becoming a customer of Neo Technology and not viceversa)
+1. performing queries on search engines (e.g. search for: +"Siemens" +"Neo Technology")
+2. identifying mentions of the relevant entities in the documents returned by those queries (i.e. Siemens and Neo Technology)
+3. determining if the entities mentioned stand in the appropriate relationship to one another (i.e to make sure that the document is about Siemems becoming a customer of Neo Technology and not viceversa)
 
 As the post itself points out, steps 1, 2 and 3 are exactly the steps a system such as [IBM's Watson](https://en.wikipedia.org/wiki/Watson_(computer)) (of Jeopardy fame) goes through in order to answer questions posed in a natural language such as English.
 
@@ -134,7 +134,7 @@ The second (in my opinion) likely development is that some charitable (or self-i
 
 Moving on to Alice's third desideratum: predictions should be resolved as quickly and reliably as possible.
 
-Let's assume for a moment that there will be someone out (we'll see who in a second) who goes through the trouble of crawling the web, reading bits of news such as the hypothetical
+Let's assume for a moment that there will be someone out there (we'll see who in a second) who goes through the trouble of crawling the web, reading bits of news such as the hypothetical
 
 "On March 28, 2015 Siemens announced that it deploying Neo4J through a contract serviced by Neo Technology"
 
@@ -160,7 +160,7 @@ into
 
 and that someone (else) crawls the web and saves all these facts into a [Triplestore](https://en.wikipedia.org/wiki/Triplestore), that is a database specialized in storing facts represented in terms of these ontologies.
 
-Just like databases can be answer queries crafted in the [SQL](https://en.wikipedia.org/wiki/SQL) query languages, triplestores can be queried using the [SPARQL](https://en.wikipedia.org/wiki/SPARQL) query language.
+Just like databases can answer queries crafted in the [SQL](https://en.wikipedia.org/wiki/SQL) query language, triplestores can be queried using the [SPARQL](https://en.wikipedia.org/wiki/SPARQL) query language.
 
 The following is the SPARQL query that retrieves all events in which Siemens is the buyer, Neo Technology is the seller and the sale took place before March 31, 2015:   
 
@@ -177,7 +177,7 @@ SELECT ?buy
 }
 ```
 
-A cursory inspection should convince you that it is possible to generate this query automatically from Alice's *formal* version of her Siemens/Neo Technology prediction.
+A cursory inspection should convince you that it is possible to generate this query automatically from Alice's *formal* version of her Siemens/Neo Technology prediction (it's just a matter of mechanically mapping certain bits of the prediction into certain bits of the query).
 
 So, *if* Alice goes through the trouble of formally representing her prediction using an appropriate ontology *and* someone (else) goes through the trouble of analyzing newsfeeds and storing the resulting formally represented facts into a triplestore, *then* querying the triplestore will *immediately* resolve the query.
 
@@ -191,13 +191,13 @@ This is the first order approximation of how things could work.
 
 There will of course be difficulties (the query above will not resolve against a triplestore where the relevant event has been encoded using an alternative ontology) but also enormous promise: the query can be resolved not by direct lookup but by *inference* , i.e. by establishing a chain of facts that *jointly* *imply* that Siemens has become a customer of Neo Technology. This sounds a bit vague and optimistic. But if your prediction is about pharmacological development, you will appreciate the power of inference deployed over an [open data pharmacological triple store that contains 10 billion facts](http://linkedlifedata.com).
 
-In the most optimistic scenario, the use of ontologies in the representation of predictions in prediction markets could ignite a positive feedback loop: the existence of certain questions on prediction markets causes news publishers or news intermediaries to publish/extract a formal representation of news. This makes predictions easier, cheaper, faster to resolve, encouraging the creation of new predictions and so on, and so on...
+In the most optimistic scenario, the use of ontologies in the representation of predictions in prediction markets could ignite a positive feedback loop: the existence of certain questions on prediction markets causes news publishers or news intermediaries to publish/extract a formal representation of news about those events. This makes predictions easier, cheaper, faster to resolve, encouraging the creation of new predictions and so on, and so on...
 
 ### Multilingual representation from formally specified predictions
 
 A few paragraphs above I mentioned my experience in working on tools that take as input natural language expressions and outputs structured representations of the same.
 
-It should come as no suprise that it is equally possible to take as input structured representations of facts or events expressed in a formal language/ontology and [produce a natural language representation](https://www.jair.org/media/4017/live-4017-7471-jair.pdf), e.g. an English sentence.
+It should come as no surprise that it is equally possible to take as input structured representations of facts or events expressed in a formal language/ontology and [produce a natural language representation](https://www.jair.org/media/4017/live-4017-7471-jair.pdf), e.g. an English sentence.
 
 And this is where things get interesting for Alice's second desideratum: making predictions multilingual.
 
@@ -221,13 +221,13 @@ If you have a process to generate the English 'skin' from the underlying fact, t
 And that's what finally closes the circle:
 
 1. Alice writes down in her own language (say, English) the prediction she wants to publish on the prediction market
-2. Alice produces a *formal* representation of her prediction (by tweaking the formal representation of someone else's prediction or using an natural language enabled ontology editor)
+2. Alice produces a *formal* representation of her prediction (by tweaking the formal representation of someone else's prediction or using a natural language enabled ontology editor)
 3. Alice uses a natural language generation module to 'skin' the formal representation of her prediction in as many other languages as possible (say Chinese, Hindi and Spanish)
-4. the prediction now become accessible to speakers of Chinese, Hindi, Spanish that would not have been able to trade on the English-only prediction.
+4. the prediction now become understandable/accessible to speakers of Chinese, Hindi, Spanish that would not have been able to trade on the English-only prediction.
 5. the market becomes more liquid
 6. the market as a whole becomes better at tracking the probability of events happening
 
-To repeat, the entire scheme of enriching predictions with formal, ontology based representations is certainly not a pre-requisite for the functioning of prediction markets and need not be an all-or-nothing kind of thing (natural language predictions could peacefully co-exist with formally specified predictions on a prediction markets).
+To repeat, the entire scheme of enriching predictions with formal, ontology based, representations is certainly not a pre-requisite for the functioning of prediction markets and need not be an all-or-nothing kind of thing (natural language predictions could peacefully co-exist with formally specified predictions on a prediction markets).
 
 That said, the fairly predictable nature of many predictions (elections, mergers and acquisitions, military events, ...) is such that even a modest investment in formalizing them would go a long way, particularly when the interests of prediction markets in these matters are so very clearly aligned with those of search engines and news organizations.
 
@@ -246,5 +246,3 @@ SELECT ?time
 ```
 
 i.e. when will [Augur](http://www.augur.net) manage to do (at least part of) this?
-
-Nan!717JLB
