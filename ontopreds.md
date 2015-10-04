@@ -140,7 +140,7 @@ Let's assume for a moment that there will be someone out there (we'll see who in
 
 "On March 28, 2015 Siemens announced that it deploying Neo4J through a contract serviced by Neo Technology"
 
-into
+represented as
 
 ```
 <tr typeof="http://schema.org/BuyAction">
@@ -160,7 +160,7 @@ into
 </tr>
 ```
 
-and that someone (else) crawls the web and saves all these facts into a [Triplestore](https://en.wikipedia.org/wiki/Triplestore), that is a database specialized in storing facts represented in terms of these ontologies.
+and saves all these facts into a [Triplestore](https://en.wikipedia.org/wiki/Triplestore), that is a database specialized in storing facts represented in terms of these ontologies.
 
 Just like databases can answer queries crafted in the [SQL](https://en.wikipedia.org/wiki/SQL) query language, triplestores can be queried using the [SPARQL](https://en.wikipedia.org/wiki/SPARQL) query language.
 
