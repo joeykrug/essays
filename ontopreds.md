@@ -1,5 +1,7 @@
 # Ontology based prediction markets
 
+*Disclaimer: these are my personal opinions as an enthusiast of both prediction markets and semantic technologies. They are not, and should not be interpreted to be, an indication of the opinions of my employer*
+
 As a long time enthusiast of [prediction markets](https://en.wikipedia.org/wiki/Prediction_market) I am following with great interest the progress of the [Augur Project](http://www.augur.net).
 
 A [recent post](http://www.augur.net/blog/i-robot-will-be-the-judge-the-case-for-artificial-intelligenc) on the Augur blog talks about what it would take to make it as easy and efficient as possible for the market referees to adjudicate predictions, i.e. to judge if a predicted event did in fact happen by the appointed deadline.
@@ -246,3 +248,5 @@ SELECT ?time
 ```
 
 i.e. when will [Augur](http://www.augur.net) manage to do (at least part of) this?
+
+*Disclaimer: these are my personal opinions as an enthusiast of both prediction markets and semantic technologies. They are not, and should not be interpreted to be, an indication of the opinions of my employer*
