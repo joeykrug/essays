@@ -70,7 +70,7 @@ The difference is that Barbara, Carol and Diana don't have to ask [Watson](https
 
 If you want to inspect the definition of "being a paying customer", visit http://schema.org/BuyAction .
 
-If you want to know who exactly is meant by "TomTom" (for all you know, my cousin could be called "TomTom" and be a customer of Neo Technology; that would make resolving a prediction harder than it should be) visit http://dbpedia.org/resource/TomTom .
+If you want to know who exactly is meant by "TomTom" (for all you know, my cousin could also be called "TomTom" and be a customer of Neo Technology; that would make resolving a prediction harder than it should be) visit http://dbpedia.org/resource/TomTom .
 
 And so on, and so on.
 
