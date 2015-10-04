@@ -132,7 +132,7 @@ And so on.
 
 The second (in my opinion) likely development is that some charitable (or self-interested) soul will write a 'prediction editor', i.e. a very simple interface where people will type in their prediction in a natural language such as English and the tool will go out looking for the right ontology terms to map the prediction on. When I was working at [Cycorp](http://www.cyc.com) (1998-2004) I helped develop [a tool that worked exactly like that](http://www.researchgate.net/publication/228729261_Automated_OWL_annotation_assisted_by_a_large_knowledge_base) and I am quite confident that such tools have become a lot better since.
 
-A good example of a no-nonsense ontology editor used in a very, very practical scenario (e-commerce) is [Martin Hepp's](http://www.heppnetz.de/) [Snippet Generator](http://www.ebusiness-unibw.org/tools/grsnippetgen/) for the superlative [Good Relations](http://www.heppnetz.de/projects/goodrelations/) e-commerce ontology, used by more than ten thousand stores to present their catalogs on the web in a way that makes it maximally easy for search engine to index them.
+A good example of a no-nonsense ontology editor used in a very, very practical scenario (e-commerce) is [Martin Hepp's](http://www.heppnetz.de/) [Snippet Generator](http://www.ebusiness-unibw.org/tools/grsnippetgen/) for the superlative [Good Relations](http://www.heppnetz.de/projects/goodrelations/) e-commerce ontology, used by more than ten thousand stores to present their catalogs on the web in a way that makes it maximally easy for search engines to index them.
 
 I think it quite possible to do the same for predictions on a prediction market.
 
