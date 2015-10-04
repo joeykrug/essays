@@ -166,7 +166,7 @@ The following is the SPARQL query that retrieves all events in which Siemens is 
 
 ```
 PREFIX schema: <http://schema.org/>
-PREFIX dpr: <http://schema.org/resource/>
+PREFIX dpr: <http://dbpedia.org/resource/>
 SELECT ?buy
 {
   ?buy a schema:BuyAction .
