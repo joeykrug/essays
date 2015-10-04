@@ -10,7 +10,7 @@ To exemplify, imagine Alice establishes a market for the prediction:
 
 On April 1, 2015 it becomes the task of referees Barbara, Carol and Diana to decide if the event described in Alice's market did, in fact, take place.
 
-Barbara, Carol and Diana are busy people and so would appreciate help in finding and sorting out reliable information sources that contain evidence about that question (for example, official announcements on the web site of TomTom or Neo Technology).
+Barbara, Carol and Diana are busy people and so would appreciate help in finding and sorting out reliable information sources that contain evidence about that question (for example, official announcements on the web site of Siemens or Neo Technology).
 
 This is particularly important because Barbara, Carol and Diana will have to deal not only with Alice's prediction but with hundreds or thousands of predictions made by many other people on the market.
 
@@ -18,9 +18,9 @@ The Augur post points in an obvious direction: anything that can be automated *s
 
 And we know that the referees' task can be automated because we have, *today*, software agents that are reasonably good at
 
-1. performing queries on search engines (e.g. search for: +"TomTom" +"Neo Technology")
-2. identifying mentions of the relevant entities in the documents returned by those queries (i.e. TomTom and Neo Technology)
-3. determining if the entities mentioned stand in the appropriate relationship to one another (i.e to make sure that the document is about TomTom becoming a customer of Neo Technology and not viceversa)
+1. performing queries on search engines (e.g. search for: +"" +"Neo Technology")
+2. identifying mentions of the relevant entities in the documents returned by those queries (i.e.  and Neo Technology)
+3. determining if the entities mentioned stand in the appropriate relationship to one another (i.e to make sure that the document is about  becoming a customer of Neo Technology and not viceversa)
 
 As the post itself points out, steps 1, 2 and 3 are exactly the steps a system such as [IBM's Watson](https://en.wikipedia.org/wiki/Watson_(computer)) (of Jeopardy fame) goes through in order to answer questions posed in a natural language such as English.
 
