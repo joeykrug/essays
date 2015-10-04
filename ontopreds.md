@@ -8,9 +8,9 @@ A [recent post](http://www.augur.net/blog/i-robot-will-be-the-judge-the-case-for
 
 To exemplify, imagine Alice establishes a market for the prediction:
 
-"By March 31 2015, Siemens will have become a customer of Neo Technology"
+"By March 31 2016, Siemens will have become a customer of Neo Technology"
 
-On April 1, 2015 it becomes the task of referees Barbara, Carol and Diana to decide if the event described in Alice's market did, in fact, take place.
+On April 1, 2016 it becomes the task of referees Barbara, Carol and Diana to decide if the event described in Alice's market did, in fact, take place.
 
 Barbara, Carol and Diana are busy people and so would appreciate help in finding and sorting out reliable information sources that contain evidence about that question (for example, official announcements on the web site of Siemens or Neo Technology).
 
@@ -78,7 +78,7 @@ And so on, and so on.
 
 So, in this new, more precise, representation medium (surface English enriched with web ontology markup), Alice's prediction
 
-"By March 31 2015 Siemens will have become a customer of Neo Technology"
+"By March 31 2016 Siemens will have become a customer of Neo Technology"
 
 can be represented as
 
@@ -94,11 +94,11 @@ can be represented as
     <a href="http://neo4j.com/company/">a product of Neo Technology,</a>
   </td>
   since at least
-  <td property="http://schema.org/startTime">2015-03-31</td>
+  <td property="http://schema.org/startTime">2016-03-31</td>
 </tr>
 ```
 
-(here I am admittedly abusing the notation because, as *startTime* is currently defined, the prediction above means that the commercial relationship between Siemens and Neo Technology started *exactly* on March 31, 2015. With a bit more sluething around [schema.org](http://schema.org) or other ontologies it should be relatively easy to find a fix).
+(here I am admittedly abusing the notation because, as *startTime* is currently defined, the prediction above means that the commercial relationship between Siemens and Neo Technology started *exactly* on March 31, 2016. With a bit more sluething around [schema.org](http://schema.org) or other ontologies it should be relatively easy to find a fix).
 
 This takes care of Alice's first requirement, that predictions be specified as precisely as possible.
 
@@ -119,7 +119,7 @@ The first one is that people will learn how to specify their predictions by insp
 In the Siemens prediction example above it is obvious that the part of the markup you need to edit if you want to change deadline for your prediction is
 
 ```
-<td property="http://schema.org/startTime">2015-03-31</td>
+<td property="http://schema.org/startTime">2016-03-31</td>
 ```
 
 Similarly, if you want to make the prediction about Samsung instead of Siemens you will need to edit
@@ -138,14 +138,14 @@ Moving on to Alice's third desideratum: predictions should be resolved as quickl
 
 Let's assume for a moment that there will be someone out there (we'll see who in a second) who goes through the trouble of crawling the web, reading bits of news such as the hypothetical
 
-"On March 28, 2015 Siemens announced that it deploying Neo4J through a contract serviced by Neo Technology"
+"On March 28, 2016 Siemens announced that it deploying Neo4J through a contract serviced by Neo Technology"
 
 represented as
 
 ```
 <tr typeof="http://schema.org/BuyAction">
   On
-  <td property="http://schema.org/startTime">2015-03-28</td>
+  <td property="http://schema.org/startTime">2016-03-28</td>
   <td property="http://schema.org/agent" href="http://dbpedia.org/resource/Siemens">
     <a href="http://www.siemens.com/">Siemens</a>
   <td property="http://purl.org/spar/cito/citesAsEvidence" href="http://www.somenewsoutlet.com/pressreleases/neo4j_siemens_contract.html">
@@ -164,7 +164,7 @@ and saves all these facts into a [Triplestore](https://en.wikipedia.org/wiki/Tri
 
 Just like databases can answer queries crafted in the [SQL](https://en.wikipedia.org/wiki/SQL) query language, triplestores can be queried using the [SPARQL](https://en.wikipedia.org/wiki/SPARQL) query language.
 
-The following is the SPARQL query that retrieves all events in which Siemens is the buyer, Neo Technology is the seller and the sale took place before March 31, 2015:   
+The following is the SPARQL query that retrieves all events in which Siemens is the buyer, Neo Technology is the seller and the sale took place before March 31, 2016:   
 
 ```
 PREFIX schema: <http://schema.org/>
@@ -175,7 +175,7 @@ SELECT ?buy
   ?buy schema:seller dpr:Neo_Technology .
   ?buy schema:agent dpr:Siemens .
   ?buy schema:startTime ?time .
-  FILTER(?time < "2015-03-31"^^xsd:date) .
+  FILTER(?time < "2016-03-31"^^xsd:date) .
 }
 ```
 
@@ -205,13 +205,13 @@ And this is where things get interesting for Alice's second desideratum: making 
 
 You can think of the sentence
 
-"On March 28, 2015 Siemens bought a service contract for Neo4J from Neo Technology"
+"On March 28, 2016 Siemens buys a service contract for Neo4J from Neo Technology"
 
 as the English language 'skin' of the underlying fact
 
 ```
 <tr typeof="http://schema.org/BuyAction">
-  <td property="http://schema.org/startTime">2015-03-28</td>
+  <td property="http://schema.org/startTime">2016-03-28</td>
   <td property="http://schema.org/agent" href="http://dbpedia.org/resource/Siemens"></td>
   <td property="http://schema.org/object" href="http://dbpedia.org/resource/Neo4j"></td>
   <td property="http://schema.org/seller" href="http://dbpedia.org/resource/Neo_Technology"></td>
