@@ -93,8 +93,6 @@ can be represented as
   </td>
   since at least
   <td property="http://schema.org/startTime">2015-03-31</td>
-  <td property="http://purl.org/spar/cito/citesAsEvidence" href="http://neo4j.com/customers/">
-    <a href="http://neo4j.com/customers/">as seen on Neo4J's list of customers as of 2015-03-31</a></td>
 </tr>
 ```
 
