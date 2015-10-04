@@ -96,6 +96,8 @@ can be represented as
 </tr>
 ```
 
+(here I am admittedly abusing the notation because, as *startTime* is currently defined, the prediction above means that the commercial relationship between Siemens and Neo Technology started *exactly* on March 31, 2015. With a bit more sluething around [schema.org](http://schema.org) or other ontologies it should be relatively easy to find a fix).
+
 This takes care of Alice's first requirement, that predictions be specified as precisely as possible.
 
 Specifying things to this level of precision may not be possible for all predictions (there will certainly be some exotic predictions that cannot be easily represented using widely used ontology) but it is certainly worth doing (also for a number of additional reasons about which below) in all cases where it *can* be done. Very high quality consensus ontologies exist for people, companies, countries, products and many, many other things that are in the news. Some of them are developed by committed communities and maintained by organizations that have a clear business interest in their widespread use.
@@ -233,7 +235,7 @@ The question/query remains
 
 ```
 PREFIX schema: <http://schema.org/>
-PREFIX dpr: <http://schema.org/resource/>
+PREFIX dpr: <http://dbpedia.org/resource/>
 SELECT ?time
 {
   ?build a schema:CreateAction .
