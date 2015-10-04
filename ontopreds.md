@@ -201,7 +201,7 @@ And this is where things get interesting for Alice's second desideratum: making 
 
 You can think of the sentence
 
-"On March 28, 2015 Siemens bought Neo4J from Neo Technology"
+"On March 28, 2015 Siemens bought a service contract for Neo4J from Neo Technology"
 
 as the English language 'skin' of the underlying fact
 
@@ -236,10 +236,10 @@ PREFIX schema: <http://schema.org/>
 PREFIX dpr: <http://schema.org/resource/>
 SELECT ?time
 {
-  ?buy a schema:CreateAction .
-  ?buy schema:result dpr:Ontology_editor .
-  ?buy schema:agent dpr:Augur_(software) .
-  ?buy schema:startTime ?time .
+  ?build a schema:CreateAction .
+  ?build schema:result dpr:Ontology_editor .
+  ?build schema:agent dpr:Augur_(software) .
+  ?build schema:startTime ?time .
 }
 ```
 
