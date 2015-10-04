@@ -241,7 +241,8 @@ PREFIX dpr: <http://dbpedia.org/resource/>
 SELECT ?time
 {
   ?build a schema:CreateAction .
-  ?build schema:result dpr:Ontology_editor .
+  ?build schema:result ?editor .
+  ?editor a dpr:Ontology_editor .
   ?build schema:agent dpr:Augur_(software) .
   ?build schema:startTime ?time .
 }
