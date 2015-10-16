@@ -174,7 +174,7 @@ The following is the SPARQL query that retrieves all events in which Siemens is 
 PREFIX schema: <http://schema.org/>
 PREFIX dpr: <http://dbpedia.org/resource/>
 SELECT ?buy
-{
+WHERE {
   ?buy a schema:BuyAction .
   ?buy schema:seller dpr:Neo_Technology .
   ?buy schema:agent dpr:Siemens .
@@ -245,7 +245,7 @@ The question/query remains
 PREFIX schema: <http://schema.org/>
 PREFIX dpr: <http://dbpedia.org/resource/>
 SELECT ?time
-{
+WHERE {
   ?build a schema:CreateAction .
   ?build schema:result ?editor .
   ?editor a dpr:Ontology_editor .
