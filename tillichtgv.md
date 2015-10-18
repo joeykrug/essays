@@ -10,7 +10,7 @@ The plywood of my middle age is uninterrupted thinking time.
 
 The drill saw that cuts into this plywood is spoken language (or, more precisely, speech in a language I understand -- I don't mind if you and your friends are chatting in Nepali right next to me).
 
-I am writing this comfortably ensconced on a seat on the TGV, the high speed train from Luxembourg to Paris (yeah, I know...) where spoken announcements in two of the languages I understand are employed much too frequently for my taste.
+I am writing this comfortably ensconced on a seat on the [TGV](https://en.wikipedia.org/wiki/TGV), the high speed train from Luxembourg to Paris (yeah, I know...) where spoken announcements in two of the languages I understand are employed much too frequently for my taste.
 
 Now, this is grossly unfair to the management of the TGV: if you need to get off in Metz, it is important for you to know that you can only alight from certain train cars and not others; if you feel groggy (it is seven in the morning), you'd like to know in which car of the train you will be able to find coffee. I get all of that. It's just that it's not me: I go to Paris, not Metz, and I don't want coffee (and I am also pretty sure that this non-coffee preference is quite stable, i.e. that I won't change my mind during the two hours it takes for the train to reach Paris).
 
