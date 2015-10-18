@@ -20,9 +20,9 @@ If you need to get off the train in Metz, the best possible time for you to be t
 
 Think of working memory as a problem of inventory. When I push a message on your working memory stack before you strictly need it, I dip into *your* scarce mental resources and force *you* to keep it in *your* mental inventory (on this see the [Zeigarnik Effect](https://en.wikipedia.org/wiki/Bluma_Zeigarnik#The_Zeigarnik_effect) ). The overall cost of my action is likely a function of
 
-how long the item remains on someone else's inventory,
-how many people have to keep it in their inventory and
-how costly it is for a given person to do so.
+1. how long the item remains on someone else's inventory,
+2. how many people have to keep it in their inventory and
+3. how costly it is for a given person to do so.
 
 When the recipient of the message simply doesn't have the resources to keep your message in her mental inventory, you might as well not have communicated at all, as any parent with small children quickly learns.
 
