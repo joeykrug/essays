@@ -185,6 +185,8 @@ WHERE {
 
 A cursory inspection should convince you that it is possible to generate this query automatically from Alice's *formal* version of her Siemens/Neo Technology prediction (it's just a matter of mechanically mapping certain bits of the prediction into certain bits of the query).
 
+Those who have worked on the automatic generation of SPARQL queries from natural language questions [Cimiano et al. 2015](http://ceur-ws.org/Vol-1472/IESD_2015_paper_12.pdf) report that 90% of all questions that are submitted to Wikipedia can be modelled with just 15 query types.
+
 So, *if* Alice goes through the trouble of formally representing her prediction using an appropriate ontology *and* someone (else) goes through the trouble of analyzing newsfeeds and storing the resulting formally represented facts into a triplestore, *then* querying the triplestore will *immediately* resolve the query.
 
 That seems a pretty tall order: who could possibly go through the trouble of analyzing newsfeeds and storing the resulting facts in a triplestore?
