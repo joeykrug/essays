@@ -134,7 +134,7 @@ The second (in my opinion) likely development is that some charitable (or self-i
 
 A good example of a no-nonsense ontology editor used in a very, very practical scenario (e-commerce) is [Martin Hepp's](http://www.heppnetz.de/) [Snippet Generator](http://www.ebusiness-unibw.org/tools/grsnippetgen/) for the superlative [Good Relations](http://www.heppnetz.de/projects/goodrelations/) e-commerce ontology, used by more than ten thousand stores to present their catalogs on the web in a way that makes it maximally easy for search engines to index them.
 
-I think it quite possible to do the same for predictions on a prediction market.
+I think it is quite possible to do the same for predictions on a prediction market.
 
 ### Resolving prediction quickly and reliably
 
@@ -193,7 +193,7 @@ That seems a pretty tall order: who could possibly go through the trouble of ana
 
 Companies or research teams such as the [New York Times](http://nytlabs.com/blog/2015/10/20/particles/) (see their [Editor](http://nytlabs.com/projects/editor.html) project), the [BBC](http://www.bbc.co.uk/blogs/internet/entries/afdf2190-4e60-3dfc-b15f-fc17f88c85a1), [Ontotext](http://ontotext.com/semantic-solutions/dynamic-semantic-publishing-platform/semantic-news-publishing/) or [EventRegistry](http://eventregistry.org), that's who. See also some [recent Google Research work](http://arxiv.org/abs/1501.06329) on how to apply these principles to disaster monitoring.
 
-In other words, entities that have independent (business) reasons for wanting to keep track of things that happen in a structured format.
+In other words, entities that have independent (business) reasons for wanting to use a structured format to keep track of things that happen.
 
 This is the first order approximation of how things could work.
 
