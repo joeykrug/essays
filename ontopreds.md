@@ -185,7 +185,7 @@ WHERE {
 
 A cursory inspection should convince you that it is possible to generate this query automatically from Alice's *formal* version of her Siemens/Neo Technology prediction (it's just a matter of mechanically mapping certain bits of the prediction into certain bits of the query).
 
-Those who have worked on the automatic generation of SPARQL queries from natural language questions [Cimiano et al. 2015](http://ceur-ws.org/Vol-1472/IESD_2015_paper_12.pdf) report that 90% of all questions that are submitted to Wikipedia can be modelled with just 15 query types.
+Those who have worked on the automatic generation of SPARQL queries from natural language questions ([Cimiano et al. 2015](http://ceur-ws.org/Vol-1472/IESD_2015_paper_12.pdf)) report that 90% of all questions that are submitted to Wikipedia can be modelled with just 15 query types.
 
 So, *if* Alice goes through the trouble of formally representing her prediction using an appropriate ontology *and* someone (else) goes through the trouble of analyzing newsfeeds and storing the resulting formally represented facts into a triplestore, *then* querying the triplestore will *immediately* resolve the query.
 
@@ -199,7 +199,9 @@ This is the first order approximation of how things could work.
 
 There will of course be difficulties (the query above will not resolve against a triplestore where the relevant event has been encoded using an alternative ontology) but also enormous promise: the query can be resolved not by direct lookup but by *inference* , i.e. by establishing a chain of facts that *jointly* *imply* that Siemens has become a customer of Neo Technology. This sounds a bit vague and optimistic. But if your prediction is about pharmacological development, you will appreciate the power of inference deployed over an [open data pharmacological triple store that contains 10 billion facts](http://linkedlifedata.com). Similarly for [legal/corporate](https://opencorporates.com/) and [financial](https://atoka.io/home/) data for tens of millions of businesses.
 
-Some of these difficulties will likely be smoothed-out by hybrid systems, where symbolic inference is supplemented by crowd-sourcing (this means that people are consulted to answer bits of the queries that the inference engine and the knowledge sources on which it depends cannot handle themselves). For a recent proposal on how this could be done, see the HARE System ([paper](http://dl.acm.org/citation.cfm?id=2815848) and [slides](http://www.slideshare.net/maribelacosta/hare-a-hybrid-sparql-engine-to-enhance-query-answers-via-crowdsourcing-53775691))
+Some of these difficulties will likely be smoothed-out by hybrid systems, where symbolic inference is supplemented by crowd-sourcing (this means that people are consulted to answer bits of the queries that the inference engine and the knowledge sources on which it depends cannot handle themselves). For a recent proposal on how this could be done, see the HARE System ([paper](http://dl.acm.org/citation.cfm?id=2815848) and [slides](http://www.slideshare.net/maribelacosta/hare-a-hybrid-sparql-engine-to-enhance-query-answers-via-crowdsourcing-53775691)).
+
+And even when valid inference is not possible, [Ciampaglia et al. 2015](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0128193) have shown that human fact checking can be approximated quite well by finding the shortest path between concept nodes under properly defined semantic proximity metrics on knowledge graphs.
 
 In the most optimistic scenario, the use of ontologies in the representation of predictions in prediction markets could ignite a positive feedback loop: the existence of certain questions on prediction markets causes news publishers or news intermediaries to publish/extract a formal representation of news about those events. This makes predictions easier, cheaper, faster to resolve, encouraging the creation of new predictions and so on, and so on...
 
