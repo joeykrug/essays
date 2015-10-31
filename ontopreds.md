@@ -261,3 +261,11 @@ WHERE {
 i.e. when will [Augur](http://www.augur.net) manage to do (at least part of) this?
 
 *Disclaimer: these are my personal opinions as an enthusiast of both prediction markets and semantic technologies. They are not, and should not be interpreted to be, an indication of the opinions of my employer*
+
+## Afterthought
+
+You know how Google is using its [knowledge graph](https://en.wikipedia.org/wiki/Knowledge_Graph) to display structured information about the thing (person, company, movies, ...) that you are searching about (Bing does [more or less the same thing](https://www.bing.com/widget/knowledge))? Like, for a politician, which offices she's held, when she was elected, etc...
+
+Wouldn't it be cool if these search engines integrated with prediction markets to give you information not only about what these entities have done in the past but also about what they are *expected* to do, on what *timeline* and with what *confidence*?
+
+A formal treatment of predictions on prediction markets would integrate straight into those knowledge graphs... 
