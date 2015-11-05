@@ -191,7 +191,7 @@ So, *if* Alice goes through the trouble of formally representing her prediction 
 
 That seems a pretty tall order: who could possibly go through the trouble of analyzing newsfeeds and storing the resulting facts in a triplestore?
 
-Companies or research teams such as the [New York Times](http://nytlabs.com/blog/2015/10/20/particles/) (see their [Editor](http://nytlabs.com/projects/editor.html) project), the [BBC](http://www.bbc.co.uk/blogs/internet/entries/afdf2190-4e60-3dfc-b15f-fc17f88c85a1), [Ontotext](http://ontotext.com/semantic-solutions/dynamic-semantic-publishing-platform/semantic-news-publishing/) or [EventRegistry](http://eventregistry.org), that's who. See also some [recent Google Research work](http://arxiv.org/abs/1501.06329) on how to apply these principles to disaster monitoring.
+Companies or research teams such as Thomson Reuter's [Open Calais](http://www.opencalais.com/about/), the [New York Times](http://nytlabs.com/blog/2015/10/20/particles/) (see their [Editor](http://nytlabs.com/projects/editor.html) project), the [BBC](http://www.bbc.co.uk/blogs/internet/entries/afdf2190-4e60-3dfc-b15f-fc17f88c85a1), [Ontotext](http://ontotext.com/semantic-solutions/dynamic-semantic-publishing-platform/semantic-news-publishing/) or [EventRegistry](http://eventregistry.org), that's who. See also some [recent Google Research work](http://arxiv.org/abs/1501.06329) on how to apply these principles to disaster monitoring.
 
 In other words, entities that have independent (business) reasons for wanting to use a structured format to keep track of things that happen.
 
