@@ -191,7 +191,7 @@ So, *if* Alice goes through the trouble of formally representing her prediction 
 
 That seems a pretty tall order: who could possibly go through the trouble of analyzing newsfeeds and storing the resulting facts in a triplestore?
 
-Companies or research teams such as Thomson Reuter's [Open Calais](http://www.opencalais.com/about/), the [New York Times](http://nytlabs.com/blog/2015/10/20/particles/) (see their [Editor](http://nytlabs.com/projects/editor.html) project), the [BBC](http://www.bbc.co.uk/blogs/internet/entries/afdf2190-4e60-3dfc-b15f-fc17f88c85a1), [Ontotext](http://ontotext.com/semantic-solutions/dynamic-semantic-publishing-platform/semantic-news-publishing/) or [EventRegistry](http://eventregistry.org), that's who. See also some [recent Google Research work](http://arxiv.org/abs/1501.06329) on how to apply these principles to disaster monitoring.
+Companies or research teams such as Thomson Reuter's [Open Calais](http://www.opencalais.com/about/), the [New York Times](http://nytlabs.com/blog/2015/10/20/particles/) (see their [Editor](http://nytlabs.com/projects/editor.html) project), the [BBC](http://www.bbc.co.uk/blogs/internet/entries/afdf2190-4e60-3dfc-b15f-fc17f88c85a1), [Ontotext](http://ontotext.com/semantic-solutions/dynamic-semantic-publishing-platform/semantic-news-publishing/) or [EventRegistry](http://eventregistry.org), that's who. See also some [recent Google Research work](http://arxiv.org/abs/1501.06329) on how to apply these principles to disaster monitoring. Also, it turns out that people at Google are working on [BadWolf](https://github.com/google/badwolf) a temporal triple store abstraction layer (the kind of system you need to reason about what happened when, which is in turn important to reason about what could have caused what).
 
 In other words, entities that have independent (business) reasons for wanting to use a structured format to keep track of things that happen.
 
@@ -268,4 +268,4 @@ You know how Google is using its [knowledge graph](https://en.wikipedia.org/wiki
 
 Wouldn't it be cool if these search engines integrated with prediction markets to give you information not only about what these entities have done in the past but also about what they are *expected* to do, on what *timeline* and with what *confidence*?
 
-A formal treatment of predictions on prediction markets would integrate straight into those knowledge graphs... 
+A formal treatment of predictions on prediction markets would integrate straight into those knowledge graphs...
