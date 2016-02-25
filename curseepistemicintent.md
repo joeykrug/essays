@@ -14,7 +14,7 @@ If you meet a person you find attractive (PYFA) in a social context that is also
 
 This is more or less what happens to Epistemically Intent (or Intense, if you prefer) People (EIP) in many organizations (and also what makes most situations involving Sheldon funny in  [The Big Bang Theory](https://en.wikipedia.org/wiki/The_Big_Bang_Theory)).
 
-EIPs have no trouble understanding that many communication acts (buskers shaking their upturned hats for tips, twins in diapers babbling at each other on YouTube viral videos, early morning commuters exchanging bleary eyed half-greetings as they step on a cold, cold train, ...) are not epistemic in nature.
+EIPs have no trouble understanding that many communication acts (buskers shaking their upturned hats for tips, [twins in diapers babbling at each other on YouTube viral videos](https://www.youtube.com/watch?v=_JmA2ClUvUY), early morning commuters exchanging bleary eyed half-greetings as they step on a cold, cold train, ...) are not epistemic in nature.
 
 EIPs are, however, extremely biased against the possibility that some situations that are advertised as epistemic, could, in fact not be epistemic at all (or much, much less so than advertised). Like any other kind of bias, Epistemic Intent clouds sound judgement.
 
